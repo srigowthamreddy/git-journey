@@ -1,1 +1,53 @@
+**Beginner Workflow:**
 
+# Create a repository
+git init
+
+# Check repository status
+git status
+
+# Add files
+git add .
+
+# Save changes
+git commit -m "Initial commit"
+
+# Connect to GitHub
+git remote add origin https://github.com/username/repository.git
+
+# Rename branch
+git branch -M main
+
+# Upload project
+git push -u origin main
+
+**Professional Team Workflow**
+
+# Download latest changes
+git pull origin main
+
+# Create a new feature branch
+git switch -c feature-login
+
+# Make changes...
+
+# Check status
+git status
+
+# Add changes
+git add .
+
+# Commit changes
+git commit -m "Added login feature"
+
+# Upload feature branch
+git push origin feature-login
+
+# Switch back to main
+git switch main
+
+# Merge feature branch
+git merge feature-login
+
+# Push merged changes
+git push origin main
