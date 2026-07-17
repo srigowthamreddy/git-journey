@@ -1,4 +1,4 @@
-**Beginner Workflow:**
+***Beginner Workflow:***
 
 # Create a repository
 git init
@@ -21,7 +21,7 @@ git branch -M main
 # Upload project
 git push -u origin main
 
-**Professional Team Workflow**
+***Professional Team Workflow***
 
 # Download latest changes
 git pull origin main
